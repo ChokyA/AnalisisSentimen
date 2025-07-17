@@ -61,7 +61,7 @@ def detect_sentiment_naive_bayes(text):
     return prediction[0]
 
 # Streamlit UI
-st.title("Deteksi Kata Positif dan Negatif")
+st.title("Analisis Sentimen")
 
 text_input = st.text_area("Masukkan teks untuk analisis:")
 
